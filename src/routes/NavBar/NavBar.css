@@ -1,0 +1,88 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logoDiv {
+  width: 20%;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.navMenuDiv {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.navMenuLink {
+  cursor: pointer;
+}
+.navMenuLinkActive {
+  cursor: pointer;
+  padding-bottom: 4px;
+  border-bottom: 2px solid gray;
+}
+
+.navBarRight {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+.searchIcon {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+.cartIconDiv {
+  display: flex;
+  position: relative;
+}
+
+.cartIcon {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+.cartIcon:hover {
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+}
+.cartDot {
+  position: absolute;
+  background-color: tomato;
+  min-width: 10px;
+  min-height: 10px;
+  border-radius: 100px;
+  right: -5px;
+  top: -8px;
+}
+
+.signInButton {
+  background-color: transparent;
+  border: 1px solid rgb(245, 175, 135);
+  border-radius: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.signInButton:hover {
+  background-color: rgb(245, 175, 135);
+  color: white;
+}

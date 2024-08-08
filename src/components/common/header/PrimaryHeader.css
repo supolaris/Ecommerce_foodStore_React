@@ -1,0 +1,33 @@
+.headerDiv {
+  height: 70vh;
+  margin: 30px auto;
+  background: url("../../../assets/Images/header/headerBackground.jpg")
+    no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.headerContentDiv {
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  gap: 1em;
+  color: white;
+  font-size: 30px;
+  animation: fadeIn 3s;
+}
+
+.menuButtonDiv {
+  width: 20%;
+}
+.headerContentDiv .menuButtonDiv button {
+  background-color: white;
+  border: 1px solid rgb(245, 175, 135);
+  border-radius: 15px;
+  padding: 15px 30px;
+  cursor: pointer;
+  color: black;
+}
